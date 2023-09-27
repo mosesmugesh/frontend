@@ -126,13 +126,13 @@ const Bed = () => {
       margin: "10px",
       boxShadow: "5px 10px 10px rgba(0, 0, 0, 0.1)",
     },
-    occupied: {
+    // occupied: {
 
-      width: "10px",
-      height: "10px",
-      margin: "10px",
-      boxShadow: "5px 10px 10px rgba(0, 0, 0, 0.1)",
-    },
+    //   width: "10px",
+    //   height: "10px",
+    //   margin: "10px",
+    //   boxShadow: "5px 10px 10px rgba(0, 0, 0, 0.1)",
+    // },
   };
 
   const [availableBedColor, setAvailableBedColor] = useState(
